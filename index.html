@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign-up Form</title>
+  </head>
+  <body>
+    <div id="image-bg">
+      <img
+        src="./assets/bg img.avif"
+        alt="green leaf closed photo"
+        height="641"
+        width="450"
+      />
+      <p id="odin-logo">
+        <img
+          src="./assets/odin-lined.png"
+          alt="odin logo"
+          width="100"
+          height="100"
+        />
+        ODIN
+      </p>
+      <p id="credit">
+        Photo by <a href="">Haile West</a> from <a href="">Unsplash</a>
+      </p>
+    </div>
+
+    <main>
+      <div id="form-layout">
+        <legend>Let's do this</legend>
+        <form action="" method="">
+          <label for="first_name">FIRST NAME</label>
+          <input type="text" name="first_name" id="first_name" />
+
+          <label for="last_name">LAST NAME</label>
+          <input type="text" name="last_name" id="last_name" />
+
+          <label for="email">EMAIL</label>
+          <input type="email" name="email" id="email" />
+
+          <label for="phone_number">PHONE NUMBER</label>
+          <input type="number" name="phone_number" id="phone_number" />
+
+          <label for="password">PASSWORD</label>
+          <input type="password" name="password" id="password" />
+
+          <label for="confirm_password"> CONFIRM PASSWORD </label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+          />
+
+          <button type="submit"></button>
+        </form>
+      </div>
+      <button type="submit">Create Account</button>
+      <p>already have an account? <a href="#log-in">Log In</a></p>
+    </main>
+  </body>
+</html>
+
+@font-face { font-family: Norse; src: url(./assets/Norse-Bold.otf); } body{
+margin: 0; padding: 0; display: flex; align-items: center; justify-content:
+space-between; } #image-bg{ border: 4px solid rgb(231, 27, 27); } #form-layout{
+border: 1px solid purple; } #odin-logo{ font-family: Norse,sans-serif;
+font-size: 50px; background-color: rgba(0, 0, 0, 0.4); position: relative; }
+#credit{ text-align: center; position: absolute; bottom: 0; color: white; width:
+450px; } a{ color: white; }
